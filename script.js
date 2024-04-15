@@ -5,11 +5,11 @@ class Person {
 		this.n=name;
 		this.a=age;
 	}
-		get name(){return this.n;}
-	set age(age){
-	    this.a=age;
-		return this.a;
-	}
+	// 	get name(){return this.n;}
+	// set age(age){
+	//     this.a=age;
+	// 	return this.a;
+	// }
 }
 
 class Student extends Person {
